@@ -108,10 +108,12 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  // "GraphQL",
-  // "Apollo",
+  "GraphQL",
+  "Apollo",
   "Express",
   "PostgreSQL",
   "Framer Motion",
-  "Docker"
+  "Docker",
+  "AWS",
+  "CI/CD"
 ] as const;

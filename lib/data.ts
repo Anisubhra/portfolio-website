@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Utah Tech Labs, Remote",
     description:
-      "Worked as a front-end developer for 2 years. In my spare times, I have also upskilled my full-stack development skills. \nTech Stack - React, Next.js, Context API, Bootstrap",
+      "Worked as a front-end developer for 2 years. In my spare times, I have also upskilled my full-stack development skills. \nTech Stack - React, Next.js, Context API, Redux, Bootstrap, AWS",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Lolly, Remote",
     description:
-      "Currently working as a front-end developer for a fulltime role and my Tech Stack includes Angular, TypeScript, Bootstrap.",
+      "Currently working as a senior front-end developer. \nTech Stack includes Angular, TypeScript, Bootstrap, React, Next.js, Redux, Tailwind.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - Present",
   },

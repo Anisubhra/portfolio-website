@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Software Developer</span> with{" "}
         <span className="font-bold">5 years</span> of experience. I enjoy
         building visually appealing and cross platform <span className="italic">websites & apps</span>. My primary focus is in {" "}<br />
-        <span className="underline">Front-end (React, Next.js, Angular)</span>.
+        <span className="underline">Front-end (TypeScript, React, Next.js, Angular)</span>.
       </motion.h1>
 
       <motion.div
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Anisubhra Sarkar.pdf"
           download
         >
           Download CV{" "}

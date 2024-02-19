@@ -21,16 +21,14 @@ export default function About() {
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">IT</span>, I decided to pursue my
-        passion for programming. <br/>I started my career at a startup company with{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+        passion for programming. <br/>Embarking on my career, I immersed myself in{" "}
+        <span className="font-medium">full-stack development</span> at a startup, honing skills in both front-end and back-end technologies and thriving in a fast-paced environment that fosters innovation and adaptability.
+        My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Angular, Node.js, Express and MongoDB
+          TypeScript, React, Next.js, Angular, Node.js, Express and MongoDB
         </span>
-        .
+        , which empowers me to navigate both front-end and back-end intricacies seamlessly.
       </p>
 
       <p>

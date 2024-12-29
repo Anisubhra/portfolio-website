@@ -37,25 +37,25 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Ovonts, Kolkata",
     description:
-      "After graduating in 2019 I found a job immediately as a full-stack developer. \nTech Stack - Angular, Bootstrap, Node, Express, PostgreSQL, AWS",
+      "After graduating in 2019, I quickly secured a position as a full-stack developer. This role allowed me to leverage my comprehensive skills in both front-end and back-end development, contributing to the successful delivery of our Influencer Commerce product from scratch. My experience in this position has honed my ability to navigate complex technical challenges, collaborate effectively with cross-functional teams, and deliver high-quality solutions in a fast-paced environment.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Utah Tech Labs, Remote",
-    description:
-      "Worked as a front-end developer for 2 years. In my spare times, I have also upskilled my full-stack development skills. \nTech Stack - React, Next.js, Context API, Redux, Bootstrap, AWS",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2019 - 2022",
   },
   {
     title: "Front-End Developer",
     location: "Lolly, Remote",
     description:
-      "Currently working as a senior front-end developer. \nTech Stack includes Angular, TypeScript, Bootstrap, React, Next.js, Redux, Tailwind.",
+      "As a Senior Frontend Developer, I played a pivotal role in the development of the AI Co-Pilot platform, specifically tailored to meet the unique needs of marketing teams. My contributions were instrumental in designing and implementing user-friendly interfaces that enhanced the overall user experience. By collaborating closely with cross-functional teams, I ensured that the platform delivered high-quality, efficient solutions that empowered marketing professionals to achieve their goals more effectively.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - Present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Senior Software Engineer",
+    location: "EPAM Systems, Remote",
+    description:
+      "Led a team in the creation of a sophisticated data lake platform, utilizing AWS's open-source codebase. This project involved designing and implementing scalable, high-performance solutions to manage and analyze large datasets. My leadership ensured seamless collaboration among team members, resulting in a robust and efficient platform that significantly improved data accessibility and insights for the organization.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - PRESENT",
   },
 ] as const;
 
@@ -95,25 +95,29 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
+  "HTML5",
   "CSS",
+  "SASS/SCSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Bootstrap",
-  "Prisma",
-  "MongoDB",
+  "React Native",
   "Redux",
+  "Next.js",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "REST",
+  "Tailwind",
+  "Material UI",
   "Framer Motion",
+  "Angular",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Prisma",
+  "PostgreSQL",
+  "Git",
   "Docker",
   "AWS",
-  "CI/CD"
+  "CI/CD",
+  "Kubernetes"
 ] as const;

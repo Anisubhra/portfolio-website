@@ -26,7 +26,7 @@ export default function About() {
         My core stack
         is{" "}
         <span className="font-medium">
-          TypeScript, React, Next.js, Angular, Node.js, Express and MongoDB
+          JavaScript, React, Next.js, Angular, Node.js, Express and MongoDB
         </span>
         , which empowers me to navigate both front-end and back-end intricacies seamlessly.
       </p>

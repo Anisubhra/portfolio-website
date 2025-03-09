@@ -4,6 +4,8 @@ import genius from "@/public/genius.png";
 import threads from "@/public/threads.png";
 import metaversus from "@/public/metaversus.png";
 import hoobank from "@/public/hoobank.png";
+import snake from "@/public/snake_mania.jpeg";
+import mole from "@/public/whack_a_mole.jpeg";
 
 export const links = [
   {
@@ -60,18 +62,18 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Threads Clone",
-    description:
-      "Full-stack threads clone app which has features like search, activity, create, community, profile details etc.",
-    tags: ["TypeScript", "Next.js", "Tailwind", "MongoDB"],
-    imageUrl: threads,
-    link: 'https://threads-app-ochre.vercel.app/'
-  },
+  // {
+  //   title: "Threads Clone",
+  //   description:
+  //     "Full-stack threads clone app which has features like search, activity, create, community, profile details etc.",
+  //   tags: ["TypeScript", "Next.js", "Tailwind", "MongoDB"],
+  //   imageUrl: threads,
+  //   link: 'https://threads-app-ochre.vercel.app/'
+  // },
   {
     title: "Genius",
     description:
-      "An AI SaaS platform built from scratch which leverages OpenAI and Replicate to generate unique media content.",
+      "An AI SaaS platform designed for creativity and efficiency, it offers a seamless user experience for unique content generation. 🚀🤖",
     tags: ["Next.js", "TypeScript", "MySQL", "Tailwind", "Prisma", "Stripe"],
     imageUrl: genius,
     link: 'https://ai-saas-pi-orpin.vercel.app/'
@@ -79,7 +81,7 @@ export const projectsData = [
   {
     title: "Metaversus",
     description:
-      "Metaverse landing app with fully responsive design, modern UI elements and fluid animations.",
+      "Metaversus is a futuristic and interactive website with a sleek design, smooth animations, and a responsive layout, perfect for showcasing the metaverse experience. Explore now! 🌐✨",
     tags: ["Next.js", "Tailwind", "Framer"],
     imageUrl: metaversus,
     link: 'https://metaverse-landing-vert.vercel.app/'
@@ -87,10 +89,26 @@ export const projectsData = [
   {
     title: "HooBank",
     description:
-      "A modern banking landing website designed and developed from figma design which is not only lightweight but pixel perfect and works seamlessly across all the devices.",
+      "A sleek and modern website designed for a financial institution, it features a responsive layout, smooth animations, and a user-friendly interface. Explore it now! 💳🏦",
     tags: ["Vite.js", "Tailwind"],
     imageUrl: hoobank,
     link: 'https://bank-landing-app.vercel.app/'
+  },
+  {
+    title: "Snake Mania",
+    description:
+      "Snake Mania is a classic arcade-style game. Control the snake, eat food to grow, and avoid collisions to survive as long as possible. Play now and test your skills! 🐍🎮",
+    tags: ["JavaScript", "HTML", "CSS"],
+    imageUrl: snake,
+    link: 'https://snake-game-topaz-three.vercel.app/'
+  },
+  {
+    title: "Whack a Mole",
+    description:
+      "Whack-a-Mole is a fun and fast-paced game. Test your reflexes by clicking on the moles as they pop up—how many can you whack before time runs out? 🎯🐭 Play now!",
+    tags: ["JavaScript", "HTML", "CSS"],
+    imageUrl: mole,
+    link: 'https://whack-a-mole-livid.vercel.app/'
   },
 ] as const;
 

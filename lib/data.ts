@@ -32,29 +32,30 @@ export const links = [
 export const experiencesData = [
   {
     title: "Full-Stack Developer",
-    location: "Ovonts, Kolkata",
+    location: "Ovonts",
     description:
-      "After graduating in 2019, I quickly secured a position as a full-stack developer. This role allowed me to leverage my comprehensive skills in both front-end and back-end development, contributing to the successful delivery of our Influencer Commerce product from scratch. My experience in this position has honed my ability to navigate complex technical challenges, collaborate effectively with cross-functional teams, and deliver high-quality solutions in a fast-paced environment.",
+      "Built and launched an Influencer Commerce product from scratch, handling both front-end and back-end development. Gained hands-on experience tackling complex challenges in a fast-paced, cross-functional team.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2022",
   },
   {
     title: "Front-End Developer",
-    location: "Lolly, Remote",
+    location: "Lolly",
     description:
-      "As a Senior Frontend Developer, I played a pivotal role in the development of the AI Co-Pilot platform, specifically tailored to meet the unique needs of marketing teams. My contributions were instrumental in designing and implementing user-friendly interfaces that enhanced the overall user experience. By collaborating closely with cross-functional teams, I ensured that the platform delivered high-quality, efficient solutions that empowered marketing professionals to achieve their goals more effectively.",
+      "Developed AI Co-Pilot for marketing teams, creating intuitive, high-performance UIs to enhance user experience. Worked closely with cross-functional teams to ensure smooth, efficient delivery.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2024",
   },
   {
     title: "Senior Software Engineer",
-    location: "EPAM Systems, Remote",
+    location: "EPAM",
     description:
-      "Led a team in the creation of a sophisticated data lake platform, utilizing AWS's open-source codebase. This project involved designing and implementing scalable, high-performance solutions to manage and analyze large datasets. My leadership ensured seamless collaboration among team members, resulting in a robust and efficient platform that significantly improved data accessibility and insights for the organization.",
+      "Led a team to build a scalable data lake platform using AWS open-source codebase. Designed high-performance solutions for large-scale data processing, improving data accessibility and insights.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - PRESENT",
   },
 ] as const;
+
 
 export const projectsData = [
   // {
@@ -100,7 +101,7 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  // Frontend
+  // 🔥 Frontend
   "HTML5",
   "CSS3",
   "SASS/SCSS",
@@ -111,43 +112,50 @@ export const skillsData = [
   "Next.js",
   // "Vue",
   "Vite",
-  "Redux Toolkit",
+  "Redux",
   // "Zustand",
   "React Query",
   "Angular",
   "Tailwind CSS",
   "Material UI",
   "Framer Motion",
-  "GSAP", 
+  "GSAP",
   "Three.js",
 
-  // Backend
+  // 🎯 Build Tools
+  "Webpack",
+  // "Parcel",
+
+  // ✅ Testing & Quality Assurance
+  "Jest",
+  "React Testing Library",
+  // "Cypress",
+  // "Playwright",
+  // "Vitest",
+  // "Storybook",
+
+  // 🔧 Backend
   "Node.js",
   "Express",
-  // "NestJS",
   "GraphQL",
   "REST API",
   "Prisma",
   "PostgreSQL",
   "MongoDB",
+  "MySQL",
   // "Redis",
   // "Firebase",
-  // "Supabase",
 
-  // DevOps & Infrastructure
+  // ⚙️ DevOps & Infrastructure
   "Docker",
-  "Kubernetes",
+  // "Kubernetes",
   "AWS (EC2, S3, Lambda, RDS)",
-  "Vercel",
-  // "Cloudflare",
   // "CI/CD (GitHub Actions, Jenkins)",
   // "Terraform",
 
-  // Other Tools
+  // 🛠️ Other Tools
   "Git",
   "WebSockets",
-  "Cypress",
-  "Playwright",
   "Figma",
   "Jira",
 ] as const;

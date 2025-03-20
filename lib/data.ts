@@ -149,7 +149,7 @@ export const skillsData = [
   // ⚙️ DevOps & Infrastructure
   "Docker",
   // "Kubernetes",
-  "AWS (EC2, S3, Lambda, RDS)",
+  "AWS",
   // "CI/CD (GitHub Actions, Jenkins)",
   // "Terraform",
 

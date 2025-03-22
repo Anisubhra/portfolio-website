@@ -5,6 +5,7 @@ import aisaas from "@/public/ai-saas.jpeg";
 import metaverse from "@/public/metaverse.jpeg";
 import snake from "@/public/snake_mania.jpeg";
 import mole from "@/public/whack_a_mole.jpeg";
+import gaming from "@/public/gaming.jpeg";
 
 export const links = [
   {
@@ -70,7 +71,7 @@ export const projectsData = [
     title: "Gene",
     description:
       "An AI SaaS platform designed for creativity and efficiency, it offers a seamless user experience for unique content generation. 🚀🤖",
-    tags: ["Next.js", "TypeScript", "MySQL", "Tailwind", "Prisma", "Stripe"],
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Prisma", "Stripe"],
     imageUrl: aisaas,
     link: 'https://ai-saas-pi-orpin.vercel.app/'
   },
@@ -81,6 +82,14 @@ export const projectsData = [
     tags: ["Next.js", "Tailwind", "Framer"],
     imageUrl: metaverse,
     link: 'https://metaverse-landing-vert.vercel.app/'
+  },
+  {
+    title: "QuestPoint",
+    description:
+      "🎮 QuestPoint — the ultimate gaming hub built for speed, style, and seamless animations. Dive into an immersive experience that feels as thrilling as the games you love! 🚀✨ Check it out!",
+    tags: ["Vite", "Tailwind CSS", "GSAP"],
+    imageUrl: gaming,
+    link: "https://modern-gaming-website.vercel.app/",
   },
   {
     title: "Snake Mania",

@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Anisubhra | Personal Portfolio",
-  description: "Explore Anisubhra's portfolio — a senior full-stack developer having 5+ years of experience building dynamic, high-performance, cross platform web applications.",
+  description: "Explore Anisubhra's portfolio — a senior software engineer having 5+ years of experience building dynamic, high-performance, cross platform web applications.",
 };
 
 

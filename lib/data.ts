@@ -51,7 +51,7 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "EPAM",
     description:
-      "Led a team to build a scalable data lake platform using AWS open-source codebase. Designed high-performance solutions for large-scale data processing, improving data accessibility and insights.",
+      "Led a team to build a scalable data lake platform in collaboration with AWS. Designed high-performance solutions for large-scale data processing, improving data accessibility and insights.",
     icon: React.createElement(CgWorkAlt),
     date: "2024 - PRESENT",
   },
@@ -119,53 +119,40 @@ export const skillsData = [
   "React",
   "React Native",
   "Next.js",
-  // "Vue",
-  "Vite",
-  "Redux",
-  // "Zustand",
-  "React Query",
+  "Vue",
   "Angular",
+  "Svelte",
+  "Redux",
+  "Zustand",
+  "React Query",
   "Tailwind CSS",
-  "Material UI",
   "Framer Motion",
   "GSAP",
   "Three.js",
 
   // 🎯 Build Tools
   "Webpack",
-  // "Parcel",
+  "Vite",
 
   // ✅ Testing & Quality Assurance
   "Jest",
-  "React Testing Library",
-  // "Cypress",
-  // "Playwright",
-  // "Vitest",
-  // "Storybook",
 
   // 🔧 Backend
   "Node.js",
   "Express",
   "GraphQL",
   "REST API",
-  "Prisma",
   "PostgreSQL",
   "MongoDB",
-  "MySQL",
-  // "Redis",
-  // "Firebase",
 
   // ⚙️ DevOps & Infrastructure
   "Docker",
-  // "Kubernetes",
   "AWS",
-  // "CI/CD (GitHub Actions, Jenkins)",
-  // "Terraform",
+  "CI/CD",
 
   // 🛠️ Other Tools
   "Git",
-  "WebSockets",
   "Figma",
-  "Jira",
 ] as const;
+
 

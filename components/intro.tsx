@@ -5,8 +5,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
+import { HiDownload, HiOutlineMail } from "react-icons/hi";
+import { FaGithubAlt, FaLinkedinIn, FaMedium } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -54,7 +54,6 @@ export default function Intro() {
             }}
           >
             {/* <Image src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif" alt="👋" width="42" height="42" /> */}
-            🚀
           </motion.span>
         </div>
       </div>
@@ -65,7 +64,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Anisubhra.</span><br />
-        I'm a <span className="font-bold">Senior Software Engineer</span> specializing in <span className="underline">Front-end</span> technologies like <span className="italic">JavaScript, React, Next.js, Vue, and Angular</span>. I craft clean, responsive, and visually appealing <span className="italic">websites & apps</span>.
+        I'm a <span className="font-bold">Senior Software Engineer</span> specializing in <span className="underline">Front-end</span> technologies like <span className="italic">JavaScript, React, Next.js</span>. I craft clean, responsive, and visually appealing <span className="italic">websites & apps</span>.
 
       </motion.h1>
 
@@ -79,45 +78,74 @@ export default function Intro() {
       >
         <a
           href="mailto:anisubhrasarkar@gmail.com"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 active:scale-105 transition"
+          className="relative group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 active:scale-105 transition"
         >
-          Contact me here{" "}
+          Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+
+          {/* Tooltip with icon */}
+          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-white text-black text-xs px-3 py-1 rounded shadow-md whitespace-nowrap z-10 flex items-center gap-1 dark:bg-white/90 dark:text-black">
+            <HiOutlineMail className="text-sm" />
+            Send me an email
+          </span>
         </a>
 
 
-        {/* <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Anisubhra Sarkar.pdf"
-          download
-        >
-          Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a> */}
-
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/anisubhrasarkar/"
           target="_blank"
+          className="relative group bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaLinkedinIn />
+
+          {/* Tooltip */}
+          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-black text-white text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10 dark:bg-white dark:text-black">
+            LinkedIn Profile
+          </span>
         </a>
 
+
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Anisubhra"
           target="_blank"
+          className="relative group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubAlt />
+
+          {/* Tooltip */}
+          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-black text-white text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10 dark:bg-white dark:text-black">
+            GitHub Profile
+          </span>
         </a>
 
+
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://x.com/anisubhrasarkar"
           target="_blank"
+          className="relative group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaSquareXTwitter />
+
+          {/* Tooltip */}
+          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-black text-white text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10 dark:bg-white dark:text-black">
+            X / Twitter
+          </span>
         </a>
+
+
+        <a
+          href="https://medium.com/@anisubhrasarkar"
+          target="_blank"
+          className="relative group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        >
+          <FaMedium />
+
+          {/* Tooltip */}
+          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-black text-white text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10 dark:bg-white dark:text-black">
+            Medium Blog
+          </span>
+        </a>
+
       </motion.div>
     </section>
   );

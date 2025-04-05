@@ -19,9 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After earning my degree in <span className="font-medium">IT</span>, I pursued my passion for programming.
-        I began my career in <span className="font-medium">full-stack development</span> at a fast-paced startup, sharpening my skills across both front-end and back-end technologies.
-        My core stack includes <span className="font-medium">JavaScript, TypeScript, React, Next.js, Angular, Node.js, Express, and MongoDB</span>, allowing me to build dynamic, end-to-end applications with ease.
+        After graduating in <span className="font-medium">Computer Science</span>, I pursued my passion for programming.
+        I began my career at a fast-paced startup, where I quickly gained hands-on experience building real-world applications from the ground up. Working across both the front and back end, I developed a solid foundation in modern web technologies and a problem-solving mindset that thrives in dynamic environments.
+        Over the years, I've built robust, scalable applications using modern JavaScript frameworks and libraries, with a strong focus on creating seamless user experiences and efficient server-side logic.
       </p>
 
       <p>

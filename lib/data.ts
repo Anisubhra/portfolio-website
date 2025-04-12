@@ -32,19 +32,35 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Engineer (Founding Member)",
     location: "Ovonts",
     description:
       "Built and launched an Influencer Commerce product from scratch, handling both front-end and back-end development. Gained hands-on experience tackling complex challenges in a fast-paced, cross-functional team.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement("img", {
+      src: "/ovonts.jpeg",
+      alt: "Ovonts",
+      style: {
+        width: "100%",
+        height: "100%",
+        objectFit: "contain",
+      },
+    }),
     date: "2019 - 2022",
   },
   {
-    title: "Front-End Developer",
+    title: "Senior Front-End Engineer (Founding Member)",
     location: "Lolly",
     description:
       "Developed AI Co-Pilot for marketing teams, creating intuitive, high-performance UIs to enhance user experience. Worked closely with cross-functional teams to ensure smooth, efficient delivery.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement("img", {
+      src: "/lolly.jpeg",
+      alt: "Lolly",
+      style: {
+        width: "100%",
+        height: "100%",
+        objectFit: "contain",
+      },
+    }),
     date: "2022 - 2024",
   },
   {
@@ -52,7 +68,15 @@ export const experiencesData = [
     location: "EPAM",
     description:
       "Led a team to build a scalable data lake platform in collaboration with AWS. Designed high-performance solutions for large-scale data processing, improving data accessibility and insights.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement("img", {
+      src: "/epam.jpeg",
+      alt: "EPAM",
+      style: {
+        width: "100%",
+        height: "100%",
+        objectFit: "contain",
+      },
+    }),
     date: "2024 - PRESENT",
   },
 ] as const;
@@ -62,7 +86,7 @@ export const projectsData = [
   {
     title: "Gene",
     description:
-    "An AI SaaS platform designed for creativity and efficiency, it offers a seamless user experience for unique content generation. 🚀🤖",
+      "An AI SaaS platform designed for creativity and efficiency, it offers a seamless user experience for unique content generation. 🚀🤖",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Prisma", "Stripe"],
     imageUrl: aisaas,
     link: 'https://ai-saas-pi-orpin.vercel.app/'
@@ -70,7 +94,7 @@ export const projectsData = [
   {
     title: "HorizonX",
     description:
-    "HorizonX is a futuristic and interactive website with a sleek design, smooth animations, and a responsive layout, perfect for showcasing the metaverse experience. Explore now! 🌐✨",
+      "HorizonX is a futuristic and interactive website with a sleek design, smooth animations, and a responsive layout, perfect for showcasing the metaverse experience. Explore now! 🌐✨",
     tags: ["Next.js", "Tailwind", "Framer"],
     imageUrl: metaverse,
     link: 'https://metaverse-landing-vert.vercel.app/'
@@ -82,7 +106,7 @@ export const projectsData = [
     tags: ["TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: social,
     link: "https://social-app-eta-seven.vercel.app/"
-  },  
+  },
   {
     title: "QuestPoint",
     description:

@@ -42,6 +42,11 @@ export default function Experience() {
                 background:
                   theme === "light" ? "white" : "#1e293b",
                 fontSize: "1.5rem",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: 0,
+                overflow: 'hidden'
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>

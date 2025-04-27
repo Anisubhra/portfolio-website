@@ -67,7 +67,7 @@ export const experiencesData = [
     title: "Senior Software Engineer",
     location: "EPAM",
     description:
-      "Led a team to build a scalable data lake platform in collaboration with AWS. Designed high-performance solutions for large-scale data processing, improving data accessibility and insights.",
+      "Senior developer responsible for building a scalable data lake platform from scratch. Led the architecture and implementation of high-performance solutions for large-scale data processing, improving data accessibility and delivering actionable insights.",
     icon: React.createElement("img", {
       src: "/epam.jpeg",
       alt: "EPAM",

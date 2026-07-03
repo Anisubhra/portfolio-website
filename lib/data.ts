@@ -186,14 +186,14 @@ export const socialLinks = [
     text: "text-gray-700",
     tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
-  {
-    href: "https://medium.com/@anisubhrasarkar",
-    icon: "FaMedium",
-    tooltip: "Ideas & Experiences",
-    bg: "bg-white",
-    text: "text-gray-700",
-    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
-  },
+  // {
+  //   href: "https://medium.com/@anisubhrasarkar",
+  //   icon: "FaMedium",
+  //   tooltip: "Ideas & Experiences",
+  //   bg: "bg-white",
+  //   text: "text-gray-700",
+  //   tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
+  // },
 
 ] as const;
 

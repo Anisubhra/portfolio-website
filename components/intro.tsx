@@ -87,7 +87,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-8 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -96,25 +96,27 @@ export default function Intro() {
       >
         <a
           href="mailto:anisubhrasarkar@gmail.com"
-          className="relative group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 active:scale-105 transition"
+          className="relative group bg-gray-900 text-white px-7 py-3 flex items-center gap-3 rounded-full outline-none hover:bg-gray-950 active:scale-105 transition"
         >
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </a>
 
-        {socialLinks.map((link, idx) => (
-          <a
-            key={link.href}
-            href={link.href}
-            target="_blank"
-            className={`relative group ${link.bg} p-4 ${link.text} flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60`}
-          >
-            {getIcon(link.icon)}
-            <span className={`absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 ${link.tooltipBg} text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10`}>
-              {link.tooltip}
-            </span>
-          </a>
-        ))}
+        <div className="flex flex-wrap items-center justify-center gap-2">
+          {socialLinks.map((link, idx) => (
+            <a
+              key={link.href}
+              href={link.href}
+              target="_blank"
+              className={`relative group ${link.bg} p-4 ${link.text} flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60`}
+            >
+              {getIcon(link.icon)}
+              <span className={`absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 ${link.tooltipBg} text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10`}>
+                {link.tooltip}
+              </span>
+            </a>
+          ))}
+        </div>
       </motion.div>
     </section>
   );

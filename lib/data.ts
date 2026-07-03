@@ -25,10 +25,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
 ] as const;
 
 export const experiencesData = [
@@ -105,9 +105,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Twine",
+    description: "Microblogging for short posts and real-time threaded conversations with profiles and communities.",
+    tags: ["TypeScript", "Next.js", "Tailwind", "MongoDB"],
+    imageUrl: social,
+    link: "https://social-app-eta-seven.vercel.app/"
+  },
+  {
     title: "Gene",
     description:
-      "An AI SaaS platform designed for creativity and efficiency, it offers a seamless user experience for unique content generation. 🚀🤖",
+      "SaaS platform for teams to quickly generate images, video, music, code, and chat content via an intuitive editor.",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind", "Prisma", "Stripe"],
     imageUrl: aisaas,
     link: 'https://ai-saas-pi-orpin.vercel.app/'
@@ -115,31 +122,23 @@ export const projectsData = [
   {
     title: "HorizonX",
     description:
-      "HorizonX is a futuristic and interactive website with a sleek design, smooth animations, and a responsive layout, perfect for showcasing the metaverse experience. Explore now! 🌐✨",
+      "A sleek, interactive landing site that showcases a metaverse experience with smooth animations and responsive design — crafted for visual impact and engagement.",
     tags: ["Next.js", "Tailwind", "Framer"],
     imageUrl: metaverse,
     link: 'https://metaverse-landing-vert.vercel.app/'
   },
-  {
-    title: "Twine",
-    description:
-      "🧵 A full-stack microblogging app with real-time posts, threaded conversations, search, activity feed, communities, user profiles, and more. 💬👥",
-    tags: ["TypeScript", "Next.js", "Tailwind", "MongoDB"],
-    imageUrl: social,
-    link: "https://social-app-eta-seven.vercel.app/"
-  },
-  {
-    title: "QuestPoint",
-    description:
-      "🎮 QuestPoint — the ultimate gaming hub built for speed, style, and seamless animations. Dive into an immersive experience that feels as thrilling as the games you love! 🚀✨",
-    tags: ["Vite", "Tailwind CSS", "GSAP"],
-    imageUrl: gaming,
-    link: "https://modern-gaming-website.vercel.app/",
-  },
+  // {
+  //   title: "QuestPoint",
+  //   description:
+  //     "🎮 QuestPoint — the ultimate gaming hub built for speed, style, and seamless animations. Dive into an immersive experience that feels as thrilling as the games you love! 🚀✨",
+  //   tags: ["Vite", "Tailwind CSS", "GSAP"],
+  //   imageUrl: gaming,
+  //   link: "https://modern-gaming-website.vercel.app/",
+  // },
   {
     title: "Snake Mania",
     description:
-      "Snake Mania is a classic arcade-style game. Control the snake, eat food to grow, and avoid collisions to survive as long as possible. Play now and test your skills! 🐍🎮",
+      "A browser version of the classic Snake game with smooth controls and responsive play — jump in, eat the food, and see how long you can survive.",
     tags: ["JavaScript", "HTML", "CSS"],
     imageUrl: snake,
     link: 'https://snake-game-topaz-three.vercel.app/'
@@ -147,7 +146,7 @@ export const projectsData = [
   {
     title: "Whack a Mole",
     description:
-      "Whack-a-Mole is a fun and fast-paced game. Test your reflexes by clicking on the moles as they pop up—how many can you whack before time runs out? 🎯🐭 Play now!",
+      "A fast, whimsical Whack-a-Mole game built for quick reflex challenges — click the moles as they pop up and beat your high score.",
     tags: ["JavaScript", "HTML", "CSS"],
     imageUrl: mole,
     link: 'https://whack-a-mole-livid.vercel.app/'
@@ -161,7 +160,7 @@ export const socialLinks = [
     tooltip: "LinkedIn",
     bg: "bg-white",
     text: "text-gray-700",
-    tooltipBg: "bg-black text-white",
+    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
   {
     href: "https://github.com/Anisubhra",
@@ -169,7 +168,7 @@ export const socialLinks = [
     tooltip: "GitHub",
     bg: "bg-white",
     text: "text-gray-700",
-    tooltipBg: "bg-black text-white",
+    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
   {
     href: "https://x.com/anisubhrasarkar",
@@ -177,61 +176,79 @@ export const socialLinks = [
     tooltip: "X / Twitter",
     bg: "bg-white",
     text: "text-gray-700",
-    tooltipBg: "bg-black text-white",
+    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
   {
     href: "https://dev.to/anisubhra_sarkar",
     icon: "FaDev",
-    tooltip: "Dev.to - Tech Blogs",
+    tooltip: "Tech Blogs",
     bg: "bg-white",
     text: "text-gray-700",
-    tooltipBg: "bg-black text-white",
+    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
   {
     href: "https://medium.com/@anisubhrasarkar",
     icon: "FaMedium",
-    tooltip: "Medium - Ideas & Experiences",
+    tooltip: "Ideas & Experiences",
     bg: "bg-white",
     text: "text-gray-700",
-    tooltipBg: "bg-black text-white",
+    tooltipBg: "bg-black text-white dark:bg-white dark:text-black",
   },
 
 ] as const;
 
 export const skillsData = [
-  // 🔥 Frontend
+  // 🔥 Core Web / Frontend
+  "TypeScript",
+  "JavaScript (ES6+)",
+  "React",
+  "Next.js",
+  "Vite",
+  "React Native",
   "HTML",
   "CSS",
-  "JavaScript (ES6+)",
-  "TypeScript",
-  "React",
-  "React Native",
-  "Next.js",
-  "Vue",
-  "Angular",
-  "Redux",
   "Tailwind CSS",
-  "Bootstrap",
   "Material-UI",
   "Framer Motion",
-  "GSAP",
   "Three.js",
 
-  // 🔧 Backend
-  "Node.js",
-  "Express",
+  // 🧩 State & Data
+  "Redux / Redux Toolkit",
+  "Zustand",
+  "Context API",
   "GraphQL",
   "REST API",
+
+  // 🔧 Backend & Databases
+  "Node.js",
+  "Express",
+  "NestJS",
+  "Prisma",
   "PostgreSQL",
   "MongoDB",
+  
 
-  // ⚙️ DevOps & Infrastructure
+  // ☁️ Cloud, Infra & DevOps
   "Docker",
   "AWS",
+  "Vercel",
+  "GitHub Actions",
 
-  // 🛠️ Other Tools
+  // 🤖 AI / LLMs & Data Engineering
+  "LLM integration (OpenAI, Anthropic)",
+  "MCP (Model Context Protocol)",
+  "Agentic AI",
+
+  // ✅ Testing & Quality
+  "Jest",
+  "ESLint",
+  "Prettier",
+
+  // 🛠 Tools & Design
   "Git",
   "Figma",
+  "Webpack",
+  "Chrome DevTools",
 ] as const;
 
 

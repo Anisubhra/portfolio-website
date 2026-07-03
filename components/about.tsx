@@ -19,13 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating in <span className="font-medium">Computer Science</span>, I pursued my passion for programming.
-        I began my career at a fast-paced startup, where I quickly gained hands-on experience building real-world applications from the ground up. Working across both the front and back end, I developed a solid foundation in modern web technologies and a problem-solving mindset that thrives in dynamic environments.
-        Over the years, I've built robust, scalable applications using modern JavaScript frameworks and libraries, with a strong focus on creating seamless user experiences and efficient server-side logic.
+        After graduating in <span className="font-medium">Computer Science</span>, I joined a fast-paced startup where I built end-to-end features — from user-facing interfaces to backend services. That experience taught me how to move quickly without sacrificing quality, and gave me hands-on expertise in performance optimization, scalable architecture, and delivering user-centric experiences.
+      </p>
+
+      <p className="mb-3">
+        Today I design and ship production-ready web applications that drive user engagement and measurable product impact, with a strong focus on usability, performance, and maintainability.
       </p>
 
       <p>
-        <span className="italic">Beyond coding</span>, I enjoy gaming, drawing, and exploring the latest tech innovations.
+        <span className="italic">Outside work</span>, I enjoy gaming and drawing.
       </p>
 
     </motion.section>

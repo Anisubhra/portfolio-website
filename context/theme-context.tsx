@@ -18,13 +18,11 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 export default function ThemeContextProvider({
   children,
 }: ThemeContextProviderProps) {
-  const [theme, setTheme] = useState<Theme>("light");
-  const [mounted, setMounted] = useState(false);
+  const [theme, setTheme] = useState<Theme>("dark");
 
   const toggleTheme = () => {
     setTheme((prevTheme) => {
       const newTheme = prevTheme === "light" ? "dark" : "light";
-      window.localStorage.setItem("theme", newTheme);
 
       if (newTheme === "dark") {
         document.documentElement.classList.add("dark");
@@ -35,21 +33,6 @@ export default function ThemeContextProvider({
       return newTheme;
     });
   };
-
-  useEffect(() => {
-    const localTheme = window.localStorage.getItem("theme") as Theme | null;
-    const initialTheme = localTheme || "light";
-
-    setTheme(initialTheme);
-
-    if (initialTheme === "dark") {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-
-    setMounted(true);
-  }, []);
 
   return (
     <ThemeContext.Provider

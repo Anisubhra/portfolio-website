@@ -82,7 +82,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Anisubhra.</span><br />
-        I'm a <span className="font-bold">Senior Software Engineer</span> specializing in <span className="underline">Front-end</span> technologies like <span className="italic">JavaScript, React, Next.js</span>. I craft clean, responsive, and visually appealing <span className="italic">websites & apps</span>.
+        I'm a <span className="font-bold">Senior Software Engineer</span> who designs and ships pixel‑perfect, high-performance front-end experiences that turn product goals into measurable user impact.
 
       </motion.h1>
 
@@ -100,12 +100,6 @@ export default function Intro() {
         >
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-
-          {/* Tooltip with icon */}
-          <span className="absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 bg-white text-black text-xs px-3 py-1 rounded shadow-md whitespace-nowrap z-10 flex items-center gap-1 dark:bg-white/90 dark:text-black">
-            <HiOutlineMail className="text-sm" />
-            Send me an email
-          </span>
         </a>
 
         {socialLinks.map((link, idx) => (
@@ -116,7 +110,7 @@ export default function Intro() {
             className={`relative group ${link.bg} p-4 ${link.text} flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60`}
           >
             {getIcon(link.icon)}
-            <span className={`absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 ${link.tooltipBg} text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10 dark:bg-white dark:text-black`}>
+            <span className={`absolute -top-10 left-1/2 -translate-x-1/2 scale-0 group-hover:scale-100 transition-all duration-200 ${link.tooltipBg} text-xs px-2 py-1 rounded shadow-md whitespace-nowrap z-10`}>
               {link.tooltip}
             </span>
           </a>
